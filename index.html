@@ -189,7 +189,7 @@
 
         .progress-fill {
             height: 100%;
-            width: 18.75%; /* 3 / 16 = 18.75% */
+            width: 25%; /* 4 / 16 = 25% */
             background: linear-gradient(90deg, var(--cyber-neon-cyan), var(--cyber-neon-pink));
             box-shadow: 0 0 10px var(--cyber-neon-cyan);
             border-radius: 10px;
@@ -378,7 +378,7 @@
             <div class="progress-bar-container">
                 <div class="progress-fill"></div>
             </div>
-            <div class="progress-text">關卡完成度: 3 / 16 (18.75%)</div>
+            <div class="progress-text">關卡完成度: 4 / 16 (25.00%)</div>
         </header>
 
         <section class="grid-container">
@@ -413,14 +413,15 @@
                 <div class="quest-status"><i class="fa-solid fa-circle-check"></i> 已解鎖</div>
             </a>
 
-            <!-- 按鈕 4：悄悄話未解鎖 -->
-            <div class="quest-btn locked">
+            <!-- 按鈕 4：Week 4 - 悄悄話 (已解鎖) -->
+            <a href="w4/index.html" class="quest-btn unlocked">
                 <div class="quest-number">
                     <span>STAGE 04</span>
-                    <span class="lock-icon">🔒</span>
+                    <i class="fa-solid fa-play"></i>
                 </div>
-                <div class="quest-title">Week 4 - 尚未解鎖</div>
-            </div>
+                <div class="quest-title">Week 4 - 悄悄話</div>
+                <div class="quest-status"><i class="fa-solid fa-circle-check"></i> 已解鎖</div>
+            </a>
 
             <!-- 按鈕 5：未解鎖 -->
             <div class="quest-btn locked">
